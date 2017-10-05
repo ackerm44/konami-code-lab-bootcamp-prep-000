@@ -5,12 +5,13 @@ let index = 0;
 function init(e) {
   document.addEventListener('keydown', function(e) {
     const key = parseInt(e.which || e.detail);
+    console.log(e.which); 
 
     if (key === code[index]) {
       index++;
 
       if (index === code.length) {
-        window.alert("Konami Code Found!");
+        alert("Konami Code Found!");
 
         index = 0;
       }
