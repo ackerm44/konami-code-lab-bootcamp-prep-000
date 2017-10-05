@@ -12,7 +12,7 @@ function init(e) {
       index++;
 
       if (index === code.length) {
-        alert("Konami Code Found!");
+        window.alert("Konami Code Found!");
 
         index = 0;
       }
