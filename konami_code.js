@@ -20,5 +20,3 @@ function init(e) {
     }
   })
 }
-
-init();
