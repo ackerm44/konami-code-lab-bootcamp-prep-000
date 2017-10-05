@@ -9,7 +9,7 @@ function init(e) {
     if (key === code[index]) {
       index++;
 
-      if index === code.length) {
+      if (index === code.length) {
         alert("Konami Code Found!");
 
         index = 0;
@@ -18,5 +18,7 @@ function init(e) {
       index = 0;
     }
   })
-
+  console.log(e.which); 
 }
+
+init()
